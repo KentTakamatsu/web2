@@ -1,0 +1,51 @@
+section#product div.inbox{}
+section#spec img 
+{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	display: block;
+	position: absolute;
+	left: -5px;
+	top: 0px;
+	z-index: 200;
+}
+section#product h2 {
+	display: none;
+}
+section#product div#productdata {
+	position: relative;
+	left: 220px;
+	width: 660px;
+	margin: 20px 0;
+}
+section#product dl {
+	padding: 0px 20px;
+	margin-bottom: 30px;
+}
+section#product dl:last-child {
+	margin: 0;
+}
+section#product dt {
+	font-weight: bold;
+	font-family: '小塚ゴシック Pro EL',sans-serif;
+	line-height: 1.6em;
+	padding-left: 1em;
+	border-bottom: 1px solid #5d150c;
+	border-left: 1.6em solid #5d150c;
+	margin-bottom: 5px;
+}
+section#product dd {
+	font-family: '小塚ゴシック Pro EL',sans-serif;
+	line-height: 1.6em;
+	padding-left: 4em;
+	margin-bottom: 10px;
+}
+section#product p.an {
+	font-family: '小塚ゴシック Pro EL', serif;
+	text-align: right;
+	margin: 10px;
+}
+section#product dd:last-child {
+	margin:0;
+}

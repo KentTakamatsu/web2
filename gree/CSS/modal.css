@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+/*
+	22  :  ポップアップ
+*/
+div#glay_layer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:300%;
+	width:100%;
+	background:white;
+	filter:alpha(opacity=90);
+	opacity: 0.90;
+        z-index: 30000;       /* もともと10; */
+}
+#over_layer{
+	display:none;
+	width:305px;
+	position: fixed;
+	top:20%;
+	left:50%;
+	z-index: 30000;       /* もともと10; */
+	border-radius: 15px; /* CSS3草案 */
+	-webkit-border-radius: 15px; /* Safari,Google Chrome用 */
+	-moz-border-radius: 15px; /* Firefox用 */
+	/* background-image: linear-gradient(0deg,rgba(248, 234, 255, 0.58) 0%,rgba(248, 234, 255, 0.15) 50%,rgba(255, 255, 255, 0.83) 100%);*/
+}
+#over_layer_menu {
+	display:none;
+	width:305px;
+	/*background:#ffbdc3;*/
+	position: absolute;
+	top:90px;
+	left:50%;
+	z-index: 30000;       /* もともと10; */
+	border-radius: 15px; /* CSS3草案 */
+	-webkit-border-radius: 15px; /* Safari,Google Chrome用 */
+	-moz-border-radius: 15px; /* Firefox用 */
+}
+#over_layer img.close{
+	position:absolute;
+	top:-7px;
+	right:-7px;
+	cursor:pointer;
+	z-index: 30000;       /* もともと10; */
+}
+#over_layer_menu img.close{
+	position:absolute;
+	top:-7px;
+	width:30px;
+	right:-7px;
+	cursor:pointer;
+	z-index: 30000;       /* もともと10; */
+}
+
+.modal_window1{
+	border-radius: 5px;
+	padding: 7px 0px 5px;
+	text-align: left;
+	background:rgba(255, 164, 249, 0.5);
+}
+
+.modal_window2{
+	border-radius: 15px;
+	border: solid 1px #D10B6A;
+	-webkit-box-shadow: 1px 1px 3px rgba(115, 7, 18, 0.4), inset 0px 0px 5px #FFF;
+	box-shadow: 0px 0px 5px #D10B6A;
+	background-image: -webkit-linear-gradient(0deg,rgba(248, 234, 255, 0) 0%,rgba(248, 234, 255, 0.15) 50%,rgba(242, 234, 255, 0) 100%);
+	background-image: linear-gradient(0deg,rgba(248, 234, 255, 0) 0%,rgba(248, 234, 255, 0.15) 50%,rgba(242, 234, 255, 0) 100%);
+	padding: 7px 5px 5px;
+	text-align: left;
+}
+
+.modal_title{
+	background: #ff7bc5;
+	border-radius: 10px;
+	color: #FFF;
+	padding: 6px;
+	font-size: small;
+	margin: 0px auto 2px;
+	position:relative;
+	width:270px;
+}
+.modal_title2{
+	border-radius: 15px;
+	-webkit-box-shadow: 1px 1px 3px rgba(115, 7, 18, 0.4), inset 0px 0px 5px #FFF;
+	box-shadow: 0px 0px 2px #960048;
+	text-shadow: 2px 2px #DD739D, 2px 1px #DD739D, 2px 1px #DD739D, 2px 2px #DD739D, 2px 2px 2px rgba(255, 48, 81, 0.93);
+	-webkit-box-shadow: 0px 0px 2px #FF1D65;
+	color: #FFF;
+	padding: 5px;
+	font-size: small;
+	text-align: center;
+	width: 95%;
+	margin: 0px auto 2px;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 123, color-stop(1.00, #F3306E), color-stop(0.27, #f88bae));
+	background: -webkit-radial-gradient(50% 50%, circle, #f88bae 27%, #F3306E 100%);
+	background: -moz-radial-gradient(50% 50%, circle, #f88bae 27%, #F3306E 100%);
+	background: -o-radial-gradient(50% 50%, circle, #f88bae 27%, #F3306E 100%);
+	background: -ms-radial-gradient(50% 50%, circle, #f88bae 27%, #F3306E 100%);
+	background: radial-gradient(50% 50%, circle, #f88bae 27%, #F3306E 100%);
+	background-color: #FFD3E3;
+}
+.modal_title_img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.modal_contents{
+	padding:5px 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+.modal_headword{
+	background-color: #ff7bc5;
+	border-radius: 5px;
+	color: white;
+	width: 90px;
+	padding:3px;
+}
+
+/* 新人ミッション用メニューボタン */
+.newcomer_button{
+	margin: 0px;
+	padding: 5px 0px ; font-weight:bold; text-align: center;
+	background-color: #fcf1c0;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcf1c0), color-stop(100%, #ffa146));
+	background-image: -webkit-linear-gradient(top, #fcf1c0, #ffa146);
+	background-image: -moz-linear-gradient(top, #fcf1c0, #ffa146);
+	background-image: -ms-linear-gradient(top, #fcf1c0, #ffa146);
+	background-image: -o-linear-gradient(top, #fcf1c0, #ffa146);
+	background-image: linear-gradient(top, #fcf1c0, #ffa146);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fcf1c0, endColorstr=#ffa146);
+	display:block;
+	text-decoration:none;
+	link-color:#ffffff;
+	color:#ffffff;
+	vertical-align:middle;
+	font-size:14px;
+	line-height: 20px;
+}

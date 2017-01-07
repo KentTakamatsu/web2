@@ -1,0 +1,15 @@
+{
+    "callbackUrl":"http://msyoka.jp/gree/payment_callback.php",
+    "finishPageUrl":"http://msyoka.jp/gree/payment_finishPage.php",
+    "message":"ストーリーを読み進めるためのアイテムです",
+
+"paymentItems":[{
+        "itemId":"00002",
+        "itemName":"ストーリーチケット(10枚)",
+        "unitPrice":"950",
+        "quantity":"1",
+        "imageUrl":"http://msyoka.jp/gree/pic/shop_item/ticket10.gif",
+        "description":"ストーリーを読み進めるためのアイテムです"
+      }
+      ]
+}

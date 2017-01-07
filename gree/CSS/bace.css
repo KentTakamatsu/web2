@@ -1,0 +1,1706 @@
+@charset "UTF-8";
+span {
+    vertical-align: baseline !important;
+}
+
+a.amb_anchor {
+    font-size: 11px;
+}
+
+div span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.font_80per {
+    font-size: 80%;
+}
+
+.font_85per {
+    font-size: 85%;
+}
+
+.font_90per {
+    font-size: 90%;
+}
+
+.font_95per {
+    font-size: 95%;
+}
+
+.font_105per {
+    font-size: 105%;
+}
+
+.font_110per {
+    font-size: 110%;
+}
+
+.font_115per {
+    font-size: 115%;
+}
+
+.font_120per {
+    font-size: 120%;
+}
+
+.font_red {
+    color: red;
+}
+
+.font_bold {
+    color: #bf6afd;
+}
+
+.font_bold2 {
+    color: #F83A77;
+}
+
+.font_caution {
+    color: #ce7e7e;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.font_credit {
+    color: #5e1b00;
+}
+
+.border-top {
+    border-top: 1px solid black
+}
+
+.border-bottom {
+    border-bottom: 1px solid black
+}
+
+.bgcolor1 {
+    background-color: #ffd9e2
+}
+
+.bgcolor2 {
+    background-color: #f6cfff
+}
+
+.bgcolor3 {
+    background-color: #ffffff
+}
+
+.bgcolor4 {
+    background-color: #ffabb7
+}
+
+.bgcolor_modal1 {
+    background-color: #f6cfff
+}
+
+.bgcolor_modal2 {
+    border: 1px solid #ff6c88;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffd4d9));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffd4d9);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffd4d9);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffd4d9);
+    background-image: -o-linear-gradient(top, #ffffff, #ffd4d9);
+    background-image: linear-gradient(top, #ffffff, #ffd4d9);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#ffd4d9);
+    background-color: #ffffff
+}
+
+.bgcolor_modal3 {
+    background-color: #ffffff
+}
+
+.bgcolor_modal4 {
+    border: 1px solid #ffa146;
+    background-color: #ffabb7;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fcf1c0));
+    background-image: -webkit-linear-gradient(top, #ffffff, #fcf1c0);
+    background-image: -moz-linear-gradient(top, #ffffff, #fcf1c0);
+    background-image: -ms-linear-gradient(top, #ffffff, #fcf1c0);
+    background-image: -o-linear-gradient(top, #ffffff, #fcf1c0);
+    background-image: linear-gradient(top, #ffffff, #fcf1c0);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#fcf1c0);
+    background-color: #ffffff
+}
+
+.txtcolor1 {
+    color: #eb387c
+}
+
+.txtcolor2 {
+    color: #fbecff
+}
+
+.txtcolor3 {
+    color: #ce7e7e
+}
+
+.txtcolor_modal1 {
+    color: #ffffff
+}
+
+.txtcolor_modal2 {
+    color: #fff29a
+}
+
+.txtcolor_modal3 {
+    color: #fd0f52
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.m15 {
+    margin: 15px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mtb5 {
+    margin: 5px 0px;
+}
+
+.mtb10 {
+    margin: 10px 0px;
+}
+
+.mlr5 {
+    margin: 0px 5px;
+}
+
+.mlr10 {
+    margin: 0px 10px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt15 {
+    padding-top: 15px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb15 {
+    padding-bottom: 15px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.ptb5 {
+    padding: 5px 0px;
+}
+
+.ptb10 {
+    padding: 10px 0px;
+}
+
+.deg45 {
+    -moz-transform: rotate( 45deg);
+    /* Firefox */
+    -webkit-transform: rotate( 45deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 45deg);
+    /* Opera */
+    -ms-transform: rotate( 45deg);
+    /* IE */
+    transform: rotate( 45deg);
+    /* CSS3 */
+}
+
+.deg90 {
+    -moz-transform: rotate( 90deg);
+    /* Firefox */
+    -webkit-transform: rotate( 90deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 90deg);
+    /* Opera */
+    -ms-transform: rotate( 90deg);
+    /* IE */
+    transform: rotate( 90deg);
+    /* CSS3 */
+}
+
+.deg135 {
+    -moz-transform: rotate( 135deg);
+    /* Firefox */
+    -webkit-transform: rotate( 135deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 135deg);
+    /* Opera */
+    -ms-transform: rotate( 135deg);
+    /* IE */
+    transform: rotate( 135deg);
+    /* CSS3 */
+}
+
+.deg180 {
+    -moz-transform: rotate( 180deg);
+    /* Firefox */
+    -webkit-transform: rotate( 180deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 180deg);
+    /* Opera */
+    -ms-transform: rotate( 180deg);
+    /* IE */
+    transform: rotate( 180deg);
+    /* CSS3 */
+}
+
+.deg225 {
+    -moz-transform: rotate( 225deg);
+    /* Firefox */
+    -webkit-transform: rotate( 225deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 225deg);
+    /* Opera */
+    -ms-transform: rotate( 225deg);
+    /* IE */
+    transform: rotate( 225deg);
+    /* CSS3 */
+}
+
+.deg270 {
+    -moz-transform: rotate( 270deg);
+    /* Firefox */
+    -webkit-transform: rotate( 270deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 270deg);
+    /* Opera */
+    -ms-transform: rotate( 270deg);
+    /* IE */
+    transform: rotate( 270deg);
+    /* CSS3 */
+}
+
+.deg315 {
+    -moz-transform: rotate( 315deg);
+    /* Firefox */
+    -webkit-transform: rotate( 315deg);
+    /* Chrome,Safari */
+    -o-transform: rotate( 315deg);
+    /* Opera */
+    -ms-transform: rotate( 315deg);
+    /* IE */
+    transform: rotate( 315deg);
+    /* CSS3 */
+}
+
+.display_none {
+    display: none;
+}
+
+
+/* 見出し用  メインタイトル帯 */
+
+#page_title {
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+}
+
+#page_title img {
+    vertical-align: bottom;
+}
+
+#header_help_button {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    width: 23px;
+}
+
+
+/*
+	帯・タイトル
+*/
+
+
+/*
+	9  :  帯1
+	使い方
+	<div class="band1-wrap" >
+		<div class="band1">TODO write content</div>
+	</div>
+*/
+
+.band1 {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #996600;
+    padding: 2px 0;
+    border-top: solid #ffe1a7 2px;
+    border-bottom: solid #ffe1a7 2px;
+    background-color: #fffdf9;
+    outline: solid 2px #fffdf9;
+}
+
+.band1-wrap {
+    padding: 3px 0px;
+    background-color: #fffdf9;
+}
+
+.footer_link,
+.footer_link2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #996600;
+    padding: 4px 0;
+    background-color: #fffdf9;
+}
+
+.co_footer_link {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4px 0;
+    background-color: #BD68F2;
+}
+
+
+/*
+	10  :  タイトル1（ピンク）
+	使い方
+	<div class="band2-wrap" >
+		<div class="band2">TODO write content</div>
+	</div>
+*/
+
+.band2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 0;
+    background-color: #ff7bc5;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.band2-wrap {
+    padding: 5px;
+    background-color: rgba(255, 216, 236, 0.7);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+/*
+	11  :  ボックスタイトル1
+	使い方
+	<div class="box1-wrap" >
+		<div class="box1">
+			TODO write content
+		</div>
+		<div class="box1-inner-box" >
+				TODO write content
+		</div>
+		TODO write content
+	</div>
+*/
+
+.box1 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 0;
+    background-color: #ff7bc5;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box1-wrap,
+.deco_box1-wrap {
+    color: #541800;
+    padding: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: rgba(255, 216, 236, 0.7);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box1-inner-box,
+.deco_box1-inner-box {
+    margin: 7px 0;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box1-wrap img,
+.box1-inner-box img {
+    max-width: 100%;
+}
+
+
+/*
+	12  :  ボックスタイトル2
+	使い方
+	<div class="box2-wrap" >
+		<div class="box2">
+			TODO write content
+		</div>
+		<div class="box2-inner-box" >
+				TODO write content
+		</div>
+		TODO write content
+	</div>
+*/
+
+.box2-wrap {
+    color: #541800;
+    padding: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: rgba(255, 216, 236, 0.7);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 5px 0;
+    background-color: #FF44A2;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box2-inner-box {
+    margin: 7px 0;
+    padding: 5px;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.box2-inner-box img {
+    max-width: 100%;
+}
+
+
+/*
+	18  :  ボックス2 (ショップまわりで使用）
+*/
+
+.box3-wrap {
+    color: #5e1b00;
+    padding: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: rgba(255, 216, 244, 0.7);
+}
+
+.box3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 0;
+    background-color: #de68e5;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.box3-inner-box {
+    margin: 7px 0;
+    padding: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+/* 見出し */
+
+.band_pink {
+    background-color: #ffabb7;
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 0px 15%;
+}
+
+.band_white {
+    background-color: #ffa1a1;
+    padding: 5px 0px;
+}
+
+
+/* 角丸用 */
+
+.border_radius {
+    border-radius: 15px;
+    /* CSS3草案 */
+    -webkit-border-radius: 15px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 15px;
+    /* Firefox用 */
+}
+
+
+/* グレーアウト */
+
+.gray_out {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+body {
+    font-family: Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro-W6', HiraKakuPro-W3, HiraKakupro-W6, Osaka, 'ＭＳ Ｐゴシック', HGP創英角ｺﾞｼｯｸUB, 'MS PGothic', Arial, sans-serif, メイリオ, Meiryo;
+    width: 320px;
+    position: relative;
+    color: #87283a;
+    link-color: #eb387c;
+    margin: 0 auto;
+    padding: 0;
+    font-size: small;
+    font-weight: bold;
+    background-color: #ffd9e2;
+    background-image: url("");
+    background-size: 75% auto;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+#main_content {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+td,
+th {
+    font-family: Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro-W6', HiraKakuPro-W3, HiraKakupro-W6, Osaka, 'ＭＳ Ｐゴシック', HGP創英角ｺﾞｼｯｸUB, 'MS PGothic', Arial, sans-serif, メイリオ, Meiryo;
+}
+
+table {
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+
+table.innerli {
+    border: 1px solid;
+    width: 100%;
+    text-align: left;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+li.second {
+    /*background-color: #bfefdf;*/
+    background-color: #F0FFF0
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+a {
+    color: #c40041;
+    font-size: 16px;
+}
+
+a:visited {
+    color: #c40041;
+}
+
+a img {
+    vertical-align: bottom;
+}
+
+div {
+    text-align: center;
+    margin: 0px;
+}
+
+span {
+    vertical-align: top;
+}
+
+.article_ttl {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.exp {
+    padding: 0 10px;
+    text-align: left;
+}
+
+.radius_box {
+    margin: 5px 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    /* CSS3草案 */
+    -webkit-border-radius: 5px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;
+    /* Firefox用 */
+}
+
+.txt_link {
+    font-size: medium;
+    line-height: 1.4em;
+}
+
+.topic_ttl {
+    line-height: 25px;
+}
+
+.topic_bg {
+    background: -moz-linear-gradient(top, #ff96a5, #ff6e91);
+    /* Firefox用 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff96a5), to(#ff6e91));
+    /* Safari,Google Chrome用 */
+}
+
+.topic_txt {
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+/* 
+	13  :  ボタン1（ベリー色）
+	使い方
+	<div class="system_button1" >
+		TODO write content
+	</div>
+*/
+
+.system_button1 {
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #cc0860;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fe78b7), color-stop(0.40, #e7308f), color-stop(0.6, #d10d77), color-stop(1, #e41e85));
+    background: -webkit-linear-gradient(top, #fe78b7 0%, #e7308f 40%, #d10d77 60%, #e41e85 100%);
+    background: -moz-linear-gradient(top, #fe78b7 0%, #e7308f 40%, #d10d77 60%, #e41e85 100%);
+    background: -o-linear-gradient(top, #fe78b7 0%, #e7308f 40%, #d10d77 60%, #e41e85 100%);
+    background: -ms-linear-gradient(top, #fe78b7 0%, #e7308f 40%, #d10d77 60%, #e41e85 100%);
+    background: linear-gradient(to bottom, #fe78b7 0%, #e7308f 40%, #d10d77 60%, #e41e85 100%);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 1px 1px #bb48bb;
+    -webkit-box-shadow: 0px 1px 1px #bb48bb;
+    box-shadow: 0px 1px 1px #bb48bb;
+    text-shadow: 0px 1px 1px #bb48bb;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.system_button1:visited {
+    color: #FFF;
+}
+
+.system_button1.disabled {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
+    background-image: -webkit-linear-gradient(top, #efefef, #dedede);
+    background-image: -moz-linear-gradient(top, #efefef, #dedede);
+    background-image: -ms-linear-gradient(top, #efefef, #dedede);
+    background-image: -o-linear-gradient(top, #efefef, #dedede);
+    background-image: linear-gradient(top, #efefef, #dedede);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#efefef, endColorstr=#dedede);
+    cursor: default;
+}
+
+
+/*
+	14  :  ボタン2（ピンク色）
+	使い方
+	<div class="system_button2" >
+		TODO write content
+	</div>
+*/
+
+.system_button2 {
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #ff72be;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff8fcc), color-stop(0.40, #ff48ab), color-stop(0.6, #fa0e8e), color-stop(1, #ff48ab));
+    background: -webkit-linear-gradient(top, #ff8fcc 0%, #ff48ab 40%, #fa0e8e 60%, #ff48ab 100%);
+    background: -moz-linear-gradient(top, #ff8fcc 0%, #ff48ab 40%, #fa0e8e 60%, #ff48ab 100%);
+    background: -o-linear-gradient(top, #ff8fcc 0%, #ff48ab 40%, #fa0e8e 60%, #ff48ab 100%);
+    background: -ms-linear-gradient(top, #ff8fcc 0%, #ff48ab 40%, #fa0e8e 60%, #ff48ab 100%);
+    background: linear-gradient(to bottom, #ff8fcc 0%, #ff48ab 40%, #fa0e8e 60%, #ff48ab 100%);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 1px 1px #bb48bb;
+    -webkit-box-shadow: 0px 1px 1px #bb48bb;
+    box-shadow: 0px 1px 1px #bb48bb;
+    text-shadow: 0px 1px 1px #bb48bb;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.system_button2:visited {
+    color: #FFF;
+}
+
+.system_button2.disabled {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
+    background-image: -webkit-linear-gradient(top, #efefef, #dedede);
+    background-image: -moz-linear-gradient(top, #efefef, #dedede);
+    background-image: -ms-linear-gradient(top, #efefef, #dedede);
+    background-image: -o-linear-gradient(top, #efefef, #dedede);
+    background-image: linear-gradient(top, #efefef, #dedede);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#efefef, endColorstr=#dedede);
+    cursor: default;
+}
+
+
+/*
+	15  :  ボタン3（紫色）
+	使い方
+	<div class="system_button3" >
+		TODO write content
+	</div>
+*/
+
+.system_button3 {
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #ce24ed;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ed7efd), color-stop(0.40, #dd45f8), color-stop(0.6, #c71aec), color-stop(1, #dd4cf7));
+    background: -webkit-linear-gradient(top, #ed7efd 0%, #dd45f8 40%, #c71aec 60%, #dd4cf7 100%);
+    background: -moz-linear-gradient(top, #ed7efd 0%, #dd45f8 40%, #c71aec 60%, #dd4cf7 100%);
+    background: -o-linear-gradient(top, #ed7efd 0%, #dd45f8 40%, #c71aec 60%, #dd4cf7 100%);
+    background: -ms-linear-gradient(top, #ed7efd 0%, #dd45f8 40%, #c71aec 60%, #dd4cf7 100%);
+    background: linear-gradient(to bottom, #ed7efd 0%, #dd45f8 40%, #c71aec 60%, #dd4cf7 100%);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 1px 1px #bb48bb;
+    -webkit-box-shadow: 0px 1px 1px #bb48bb;
+    box-shadow: 0px 1px 1px #bb48bb;
+    text-shadow: 0px 1px 1px #bb48bb;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.system_button3:visited {
+    color: #FFF;
+}
+
+.system_button3.disabled {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
+    background-image: -webkit-linear-gradient(top, #efefef, #dedede);
+    background-image: -moz-linear-gradient(top, #efefef, #dedede);
+    background-image: -ms-linear-gradient(top, #efefef, #dedede);
+    background-image: -o-linear-gradient(top, #efefef, #dedede);
+    background-image: linear-gradient(top, #efefef, #dedede);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#efefef, endColorstr=#dedede);
+    cursor: default;
+}
+
+
+/*
+	16  :  ボタン4（ペールピンク色）
+	使い方
+	<div class="system_button4" >
+		TODO write content
+	</div>
+*/
+
+.system_button4 {
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #ff8acc;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffc4e8), color-stop(0.40, #ff83cf), color-stop(0.6, #fe62be), color-stop(1, #ff83cf));
+    background: -webkit-linear-gradient(top, #ffc4e8 0%, #ff83cf 40%, #fe62be 60%, #ff83cf 100%);
+    background: -moz-linear-gradient(top, #ffc4e8 0%, #ff83cf 40%, #fe62be 60%, #ff83cf 100%);
+    background: -o-linear-gradient(top, #ffc4e8 0%, #ff83cf 40%, #fe62be 60%, #ff83cf 100%);
+    background: -ms-linear-gradient(top, #ffc4e8 0%, #ff83cf 40%, #fe62be 60%, #ff83cf 100%);
+    background: linear-gradient(to bottom, #ffc4e8 0%, #ff83cf 40%, #fe62be 60%, #ff83cf 100%);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 1px 1px #bb48bb;
+    -webkit-box-shadow: 0px 1px 1px #bb48bb;
+    box-shadow: 0px 1px 1px #bb48bb;
+    text-shadow: 0px 1px 1px #bb48bb;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.system_button4:visited {
+    color: #FFF;
+}
+
+.system_button4.disabled {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
+    background-image: -webkit-linear-gradient(top, #efefef, #dedede);
+    background-image: -moz-linear-gradient(top, #efefef, #dedede);
+    background-image: -ms-linear-gradient(top, #efefef, #dedede);
+    background-image: -o-linear-gradient(top, #efefef, #dedede);
+    background-image: linear-gradient(top, #efefef, #dedede);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#efefef, endColorstr=#dedede);
+    cursor: default;
+}
+
+
+/*
+	16  :  ボタン5（緑色）
+	使い方
+	<div class="system_button5" >
+		TODO write content
+	</div>
+*/
+
+.system_button5 {
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #ff8acc;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffc4e8), color-stop(0.40, #ff83cf), color-stop(0.6, #fe62be), color-stop(1, #ff83cf));
+    background: -webkit-linear-gradient(top, #4fd4d2 0%, #0eb593 40%, #00a27e 60%, #20b298 100%);
+    background: -moz-linear-gradient(top, #4fd4d2 0%, #0eb593 40%, #00a27e 60%, #20b298 100%);
+    background: -o-linear-gradient(top, #4fd4d2 0%, #0eb593 40%, #00a27e 60%, #20b298 100%);
+    background: -ms-linear-gradient(top, #4fd4d2 0%, #0eb593 40%, #00a27e 60%, #20b298 100%);
+    background: linear-gradient(to bottom, #4fd4d2 0%, #0eb593 40%, #00a27e 60%, #20b298 100%);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0px 1px 1px #00a27e;
+    -webkit-box-shadow: 0px 1px 1px #00a27e;
+    box-shadow: 0px 1px 1px #00a27e;
+    text-shadow: 0px 1px 1px #00a27e;
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.system_button5:visited {
+    color: #FFF;
+}
+
+.system_button5.disabled {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
+    background-image: -webkit-linear-gradient(top, #efefef, #dedede);
+    background-image: -moz-linear-gradient(top, #efefef, #dedede);
+    background-image: -ms-linear-gradient(top, #efefef, #dedede);
+    background-image: -o-linear-gradient(top, #efefef, #dedede);
+    background-image: linear-gradient(top, #efefef, #dedede);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#efefef, endColorstr=#dedede);
+    cursor: default;
+}
+
+.system_button_copy {
+    font-size: 14px;
+    color: #FFF;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.88, #FFCB5C), color-stop(0.49, #FFC345), color-stop(0.42, #FFDD96), color-stop(0.00, #FFFBF4));
+    background: -webkit-linear-gradient(top, #FFFBF4 0%, #FFDD96 42%, #FFC345 49%, #FFCB5C 88%);
+    background: -moz-linear-gradient(top, #FFFBF4 0%, #FFDD96 42%, #FFC345 49%, #FFCB5C 88%);
+    background: -o-linear-gradient(top, #FFFBF4 0%, #FFDD96 42%, #FFC345 49%, #FFCB5C 88%);
+    background: -ms-linear-gradient(top, #FFFBF4 0%, #FFDD96 42%, #FFC345 49%, #FFCB5C 88%);
+    background: linear-gradient(to bottom, #FFFBF4 0%, #FFDD96 42%, #FFC345 49%, #FFCB5C 88%);
+    -moz-border-radius: 15px;
+    border-radius: 7px;
+    border: 1px solid #F1D649;
+    -moz-box-shadow: 1px 1px 3px #D5992E;
+    -webkit-box-shadow: 1px 1px 3px #D5992E;
+    box-shadow: 1px 1px 3px #D5992E;
+    text-shadow: -1px -1px 4px #D5992E;
+    width: 75%;
+    margin: 5px auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+
+/* formボタン */
+
+select {
+    font-size: 16px;
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+    /*vertical-align: middle;*/
+}
+
+
+/* メニューボタン */
+
+.menu_button {
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #FF3888;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.61, #F02377), color-stop(0.00, #FFCFE2));
+    background: -webkit-linear-gradient(top, #FFCFE2 0%, #F02377 61%);
+    background: -moz-linear-gradient(top, #FFCFE2 0%, #F02377 61%);
+    background: -o-linear-gradient(top, #FFCFE2 0%, #F02377 61%);
+    background: -ms-linear-gradient(top, #FFCFE2 0%, #F02377 61%);
+    background: linear-gradient(to bottom, #FFCFE2 0%, #F02377 61%);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ff96a5, endColorstr=#99C4C1);
+    display: block;
+    text-decoration: none;
+    link-color: #ffffff;
+    color: #FFF;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a.menu_button {
+    color: white;
+}
+
+.menu_button:hover {
+    background-color: #bf848c;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bf5069), color-stop(100%, #bf5069));
+    background-image: -webkit-linear-gradient(top, #bf848c, #bf5069);
+    background-image: -moz-linear-gradient(top, #bf848c, #bf5069);
+    background-image: -ms-linear-gradient(top, #bf848c, #bf5069);
+    background-image: -o-linear-gradient(top, #bf848c, #bf5069);
+    background-image: linear-gradient(top, #bf848c, #bf5069);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#bf848c, endColorstr=#bf5069);
+}
+
+.menu_button:visited {}
+
+.menu_button_gray {
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+    border: 2px solid #FF8EBC;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.77, #FFF), color-stop(0.00, #FFDBEA));
+    background: -webkit-linear-gradient(top, #FFDBEA 0%, #FFF 77%);
+    background: -moz-linear-gradient(top, #FFDBEA 0%, #FFF 77%);
+    background: -o-linear-gradient(top, #FFDBEA 0%, #FFF 77%);
+    background: -ms-linear-gradient(top, #FFDBEA 0%, #FFF 77%);
+    background: linear-gradient(to bottom, #FFDBEA 0%, #FFF 77%);
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#c1c1c1, endColorstr=#c1c1c1);
+    display: block;
+    text-decoration: none;
+    link-color: #ffffff;
+    color: #FF6FA9;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.indicator {
+    position: relative;
+    overflow: hidden;
+    width: 13px;
+    height: 5px;
+    background: url(../img/sp/common/indicater_bg.png) repeat-x left top;
+    margin: 5px auto 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+    min-height: 1%;
+}
+
+.spacer {
+    margin: 10px 0px 10px 0px;
+}
+
+.hidden_menu>div.close {
+    display: none;
+}
+
+.hidden_menu {
+    margin: 0px;
+    background-color: #ffe1ec;
+    border-radius: 5px;
+    /* CSS3草案 */
+    -webkit-border-radius: 5px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 5px;
+    /* Firefox用 */
+}
+
+.alert_osirase {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    z-index: 1000;
+    text-align: center;
+    color: #ffffff;
+    //font-size: 0.8em;
+    background-color: #FF5E79;
+    border: 2px solid white;
+    border-radius: 7px;
+    /* CSS3草案 */
+    -webkit-border-radius: 7px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 7px;
+    /* Firefox用 */
+    line-height: 20px;
+    font-weight: bold;
+    left: 44px;
+}
+
+.alert_story {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    z-index: 1000;
+    text-align: center;
+    color: #ffffff;
+    //font-size: 0.8em;
+    background-color: #FF5E79;
+    border: 2px solid white;
+    border-radius: 7px;
+    /* CSS3草案 */
+    -webkit-border-radius: 7px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 7px;
+    /* Firefox用 */
+    line-height: 20px;
+    font-weight: bold;
+    left: 44px;
+    font-weight: bold;
+    left: 172px;
+}
+
+#sub_menu a,
+#bottom_menu a {
+    font-size: 14px;
+}
+
+.code_box_invitation {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #999;
+    height: 20px;
+    width: 100px;
+    padding: 8px;
+    font-size: 20px;
+    color: #3B0000;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+}
+
+
+/* animation
+-------------------------------------------------*/
+
+table#push_touch_text {
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+table#push_touch_text td {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center
+}
+
+#touch_text {
+    font-size: 45px;
+    font-family: 'Georgia', Monotype Corsiva, Gungsuh, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 25px #C40041, 0 0 20px #C40041, 0 0 0.40px #C40041;
+    color: white;
+}
+
+
+/* Pagenation
+-------------------------------------------------*/
+
+.pagination {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    vertical-align: middle;
+}
+
+.page-links {
+    padding-top: 5px;
+}
+
+.previous-inactive,
+.next-inactive {
+    width: 50px;
+    border: 1px solid #333333;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 7px 0px 0px;
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #FF7BC5;
+}
+
+.next a,
+.previous a,
+.first a,
+.last a {
+    width: 50px;
+    padding: 5px;
+    margin: 5px 0px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF7BC5;
+    border: 1px solid #FFF;
+    background: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.next a:hover,
+.previous a:hover,
+.first a:hover,
+.last a:hover {
+    width: 50px;
+    padding: 5px;
+    margin: 5px 0px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #FF7BC5;
+}
+
+.last a,
+.last a:hover {
+    margin-right: 3px;
+}
+
+.page-links a {
+    margin: 0px 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 5px;
+    color: #FF7BC5;
+    border: 1px solid #FFF;
+    background: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.page-links a:hover {
+    margin: 0px 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 5px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #FF7BC5;
+}
+
+.page-links span {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.active {
+    margin: 0px;
+    padding: 5px 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 5px 0px 0px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #FF7BC5;
+}
+
+.next a,
+.next-inactive {
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.previous a,
+.previous-inactive {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.first a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.last a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@-webkit-keyframes pulse {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.blinking {
+    -webkit-animation-name: pulse;
+    /* 実行する名前 */
+    -webkit-animation-duration: 0.7s;
+    /* 0.3秒かけて実行 */
+    -webkit-animation-iteration-count: infinite;
+    /* 何回実行するか。infiniteで無限 */
+    -webkit-animation-timing-function: ease-in-out;
+    /* イーズインアウト */
+    -webkit-animation-direction: alternate;
+    /* alternateにするとアニメーションが反復 */
+    -webkit-animation-delay: 0s;
+    /* 実行までの待ち時間 */
+}
+
+.fever_blinking {
+    -webkit-animation-name: pulse;
+    /* 実行する名前 */
+    -webkit-animation-duration: 1s;
+    /* 0.3秒かけて実行 */
+    -webkit-animation-iteration-count: infinite;
+    /* 何回実行するか。infiniteで無限 */
+    -webkit-animation-timing-function: ease-in-out;
+    /* イーズインアウト */
+    -webkit-animation-direction: alternate;
+    /* alternateにするとアニメーションが反復 */
+    -webkit-animation-delay: 0s;
+    /* 実行までの待ち時間 */
+}
+
+
+/* フッター(通常) */
+
+.footer_link {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.footer_link a {
+    color: #996600;
+}
+
+
+/* フッター(イベント) */
+
+.footer_link2 {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.footer_link2 a {
+    color: #996600;
+}
+
+
+/* フッター(戻る) */
+
+.footer_link3 {
+    text-align: left;
+    font-size: 9px;
+    margin: 0px 0px;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+.footer_link3 a {
+    display: block;
+    padding: 8px 2px 8px 35px;
+    color: #996600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.arrow {
+    position: absolute;
+    top: 9px;
+    right: 3%;
+    width: 20px;
+}
+
+.arrow_right {
+    position: absolute;
+    top: 9px;
+    right: 3%;
+    width: 20px;
+}
+
+.arrow_left {
+    position: absolute;
+    top: 9px;
+    left: 3%;
+    width: 20px;
+}
+
+#bt_regist {
+    border: 0px;
+    width: 270px;
+    text-align: center;
+    height: 50px;
+    background: url("../img/sp/tutorial/bt_regist.png") center no-repeat;
+    background-left: 100px;
+    background-size: 270px 50px;
+}
+
+#bt_change {
+    border: 0px;
+    width: 270px;
+    text-align: center;
+    height: 50px;
+    background: url("../img/sp/tutorial/bt_change.png") center no-repeat;
+    background-left: 100px;
+    background-size: 270px 50px;
+}
+
+#bt_confirm {
+    border: 0px;
+    text-align: center;
+    background: url("../img/sp/tutorial/bt_confirm.png") center no-repeat;
+    background-left: 100px;
+    background-size: 205px 35px;
+    width: 205px;
+    height: 35px;
+}
+
+#bt_comp {
+    border: 0px;
+    width: 270px;
+    text-align: center;
+    height: 50px;
+    background: url("../img/sp/tutorial/bt_comp.png") center no-repeat;
+    background-left: 100px;
+    background-size: 205px 45px;
+}
+
+#bt_wear {
+    border: 0px;
+    width: 270px;
+    text-align: center;
+    height: 50px;
+    background: url("../img/sp/tutorial/bt_wear.png") center no-repeat;
+    background-left: 100px;
+    background-size: 270px 50px;
+}
+
+.pink_title {
+    background-color: #ffd2d5;
+    padding: 5px 10px;
+    color: #C40041;
+    text-align: left;
+}
+
+.help_li>li {
+    padding: 0px;
+    margin-left: 12px;
+    list-style-type: disc;
+}
+
+.help div {
+    text-align: left;
+}
+
+.bg_yellow_menu {
+    background: url("../img/sp/mypage/state_bg.png") center no-repeat;
+    background-size: 320px 75px;
+    width: 100%;
+    height: 55px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.disp_none {
+    display: none;
+}
+
+
+/*補填リンク。内容*/
+
+.hoten_content {
+    padding: 0.5em 40px 0.5em 0.5em;
+    background-color: #ffd8ec;
+    border-bottom: solid 2px #eaa8e8;
+    color: #541800;
+    font-size: 12pt;
+    text-align: left;
+}
+
+#hoten_page_content {
+    padding: 0.5em;
+    background-color: #ffd8ec;
+    border-bottom: solid 2px #eaa8e8;
+    color: #541800;
+    font-size: small;
+    text-align: left;
+}
+
+.cp_banner_date {
+    margin-bottom: -8px;
+    color: #996600;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}

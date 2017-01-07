@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="アプリケーション - GREEアプリ">
+    <Link rel="event.addapp" href="http://msyoka.jp/gree/add" method="GET" />
+    <Link rel="event.removeapp" href="http://msyoka.jp/gree/remove" method="GET" />
+  </ModulePrefs>
+  <Content view="touch" type="url" href="http://msyoka.jp/gree/touch.php"/>
+</Module>

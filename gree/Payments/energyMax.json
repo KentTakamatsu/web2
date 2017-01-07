@@ -1,0 +1,15 @@
+{
+    "callbackUrl":"http://msyoka.jp/gree/payment_callback.php",
+    "finishPageUrl":"http://msyoka.jp/gree/payment_finishPage.php",
+    "message":"体力を全回復するアイテムです",
+
+"paymentItems":[{
+        "itemId":"0007",
+        "itemName":"体力回復MAX",
+        "unitPrice":"150",
+        "quantity":"1",
+        "imageUrl":"http://msyoka.jp/gree/pic/shop_item/medicine-bottle003.png",
+        "description":"体力を全回復するアイテムです"
+      }
+      ]
+}

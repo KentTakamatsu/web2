@@ -1,0 +1,15 @@
+{
+    "callbackUrl":"http://msyoka.jp/gree/payment_callback.php",
+    "finishPageUrl":"http://msyoka.jp/gree/payment_finishPage.php",
+    "message":"麻衣子の好感度を1上げるアイテムです",
+
+"paymentItems":[{
+        "itemId":"0005",
+        "itemName":"麻衣子好感度１UP",
+        "unitPrice":"85",
+        "quantity":"1",
+        "imageUrl":"http://msyoka.jp/gree/pic/shop_item/favoup1.jpg",
+        "description":"麻衣子の好感度を1上げるアイテムです"
+      }
+      ]
+}

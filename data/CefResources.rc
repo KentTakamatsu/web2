@@ -1,0 +1,7 @@
+WINDOW_X : auto
+WINDOW_Y : auto
+WINDOW_WIDTH : 1280
+WINDOW_HEIGHT : 720
+INDEX_PASS : \template\lib\index.html
+DECODE_FLG : 1
+DEBUG_FLG : 1
